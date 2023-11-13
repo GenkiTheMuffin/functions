@@ -1,8 +1,5 @@
 from math import atan2, radians, sin, cos, sqrt
 
-# import livmap
-
-
 def distance_between_coords(lat1: float, long1: float, lat2: float, long2: float):
     radius = 6371
     lat1 = radians(lat1)
